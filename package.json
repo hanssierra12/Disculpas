@@ -1,0 +1,32 @@
+{
+  "name": "cumple-animado",
+  "version": "1.0.0",
+  "description": "esta app es un regalo para mi princesa",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "run-script-os": "^1.0.2"
+  },
+  "scripts": {
+    "start": "run-script-os",
+    "start:win32": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser \"C:\\Program Files\\Firefox Developer Edition\\firefox.exe\"",
+    "//": "Hello! If you are having trouble running this command. Try changing Firefox Developer Edition to FirefoxDeveloperEdition",
+    "start:darwin:linux": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GhostemaneUrs/RegaloCumple"
+  },
+  "keywords": [
+    "Feliz",
+    "Cumpleaños"
+  ],
+  "author": "Andres Jaramillo Gonzalez",
+  "license": "NONE",
+  "bugs": {
+    "url": "https://github.com/GhostemaneUrs/RegaloCumple"
+  },
+  "homepage": "https://github.com/GhostemaneUrs/RegaloCumple",
+  "dependencies": {}
+}
